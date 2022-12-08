@@ -1,0 +1,35 @@
+.item-overlay {
+   color: white;
+   padding: 5px 10px;
+   width: 80%;
+   bottom: 30px;
+   left: 10%;
+   border-radius: 8px;
+}
+
+#lightBoxContainer {
+   background-color: rgba(0, 0, 0, 0.4);
+   position: fixed;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+}
+
+#lightBox {
+   background-image: url(../img2/portfolio/1.jpg);
+   background-position: center center;
+   background-size: cover;
+   width: 45%;
+   height: 550px;
+
+}
+
+#lightBox i {
+   cursor: pointer;
+}
+
+
+.item:hover {
+   cursor: pointer;
+}
